@@ -1,0 +1,4 @@
+make a function that will update the score
+if you choose rock and the cpu choose paper, add one to the cpu score
+if you choose rock and the cpu choose scissors, add one to your score
+if you choose rock and the cpu choose rock null
