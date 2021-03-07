@@ -37,8 +37,8 @@
         <script src="index.js">
         </script>
         <script src="https://kit.fontawesome.com/2f1c649cc2.js" crossorigin="anonymous">
+            
 // SELECTING NECESSARY ELEMENTS
-
 const rockbtn = document.getElementById('rock');
 const scissbtn = document.getElementById('scissors');
 const paperbtn = document.getElementById('paper');
@@ -51,7 +51,6 @@ let yourScore = 0;
 let cpuScore = 0;
 
 // CLICK FUNCTIONS
-
 rockbtn.addEventListener('click', ()=>{
     let randomNum = Math.floor(Math.random() * choice.length)
     let rockNum = 0
@@ -85,7 +84,6 @@ paperbtn.addEventListener('click', ()=>{
 })
 
 // SWITCH STATEMENT TO UPDATE SCORE
-
 const updateScore = (num, index) =>{
     if(index === 0){
     switch(num){
