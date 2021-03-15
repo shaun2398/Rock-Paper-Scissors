@@ -1,4 +1,4 @@
-// SELECTING NECESSARY ELEMENTS
+// SELECTING ELEMENTS & INITIALIZING VARIABLES
 
 const rockbtn = document.getElementById('rock');
 const scissbtn = document.getElementById('scissors');
